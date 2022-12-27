@@ -1,7 +1,6 @@
 import { FormRow, FormRowSelect } from ".";
 import { useAppContext } from "../context/appContext";
 import Wrapper from "../assets/wrappers/SearchContainer";
-import e from "cors";
 import { useState, useMemo } from "react";
 
 const SearchContainer = () => {
