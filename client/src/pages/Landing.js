@@ -19,7 +19,7 @@ const Landing = () => {
         <div className="container page">
           <div className="info">
             <h1>
-              Job Applivation <span> tracking</span> app
+              Job Application <span> tracking</span> app
             </h1>
             <p>
             Keeping track of your job applications has never been easier with Jobify! Developed by Santosh Kharel, Jobify is a simple yet powerful application designed to streamline your job search process. Say goodbye to messy spreadsheets and endless emails – with Jobify, you can effortlessly track, update, and manage all your job applications in one convenient place
