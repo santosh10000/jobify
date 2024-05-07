@@ -29,18 +29,9 @@ const Landing = () => {
             </Link>
   </br>
    <button
-          type="button"
-          className="btn btn-block btn-hipster"
-          disabled={isLoading}
-          onClick={() => {
-            setupUser({
-              currentUser: { email: "test1107@test.com", password: "test1107" },
-              endpoint: "login",
-              alertText: "Successfully login ! Redirecting ... ",
-            });
-          }}
+         
         >
-          {isLoading ? "Loading ...." : "Demo App"}
+           : "Demo App"
         </button>
   
           </div>
