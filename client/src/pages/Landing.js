@@ -8,7 +8,7 @@ import { Link, Navigate } from "react-router-dom";
 import { useAppContext } from "../context/appContext";
 
 const Landing = () => {
-  const { user,isLoading, setupUser } = useAppContext();
+  const { user } = useAppContext();
   return (
     <React.Fragment>
       {user && <Navigate to="/" />}
@@ -27,13 +27,6 @@ const Landing = () => {
             <Link to="/register" className="btn btn-hero">
               Login/Register
             </Link>
-  </br>
-   <button
-         
-        >
-           : "Demo App"
-        </button>
-  
           </div>
           <img src={main} alt="job hunt" srcset="" className="img main-img" />
         </div>
