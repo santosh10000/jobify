@@ -27,6 +27,24 @@ const Landing = () => {
             <Link to="/register" className="btn btn-hero">
               Login/Register
             </Link>
+  </br>
+  <button type="submit" className="btn btn-block" disabled={isLoading}>
+          Submit
+        </button>
+        <button
+          type="button"
+          className="btn btn-block btn-hipster"
+          disabled={isLoading}
+          onClick={() => {
+            setupUser({
+              currentUser: { email: "test1107@test.com", password: "test1107" },
+              endpoint: "login",
+              alertText: "Successfully login ! Redirecting ... ",
+            });
+          }}
+        >
+          {isLoading ? "Loading ...." : "Demo App"}
+        </button>
           </div>
           <img src={main} alt="job hunt" srcset="" className="img main-img" />
         </div>
